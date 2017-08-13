@@ -261,7 +261,7 @@ header.masthead {
   .portfolio-modal .close-modal:hover {
     opacity: 0.3; }
   .portfolio-modal .close-modal .lr {
-    height: 75px;
+    height: 20px;
     width: 1px;
     margin-left: 35px;
     background-color: #222222;
@@ -270,7 +270,7 @@ header.masthead {
     /* IE 9 */
     -webkit-transform: rotate(45deg);
     /* Safari and Chrome */
-    z-index: 1051; }
+    z-index: 500; }
     .portfolio-modal .close-modal .lr .rl {
       height: 75px;
       width: 1px;
@@ -327,8 +327,8 @@ header.masthead {
     .timeline > li .timeline-image {
       left: 0;
       margin-left: 0;
-      width: 80px;
-      height: 80px;
+      width: 150px;
+      height: 150px;
       position: absolute;
       z-index: 100;
       background-color: #fed136;
@@ -337,7 +337,7 @@ header.masthead {
       border: 7px solid #f1f1f1;
       text-align: center; }
       .timeline > li .timeline-image h4 {
-        font-size: 10px;
+        font-size: 8px;
         margin-top: 12px;
         line-height: 14px; }
     .timeline > li.timeline-inverted > .timeline-panel {
@@ -361,7 +361,9 @@ header.masthead {
     color: inherit; }
     .timeline .timeline-heading h4.subheading {
       text-transform: none; }
-  .timeline .timeline-body > p,
+  .timeline .timeline-body > p{
+	  text-align:justify;
+  }
   .timeline .timeline-body > ul {
     margin-bottom: 0; }
 
